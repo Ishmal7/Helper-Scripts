@@ -45,7 +45,7 @@ $STD apt install ./fah-client-bastet/fah-client_8.5.5_amd64.deb
 
 #starting FAH client
 $STD systemctl status --no-pager -l fah-client
-$STD sudo systemctl start fah-client
+$STD systemctl start fah-client
 
 
 #completion
